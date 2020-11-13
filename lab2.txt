@@ -1,30 +1,25 @@
-Script started on Thu 12 Nov 2020 06:57:59 PM EST
-[susmita@centos246 cis246lab2]$ mkdir[K[K[K[K[Kcd
-[susmita@centos246 ~]$ mkdir archive
-[susmita@centos246 ~]$ cd /var/log
-[susmita@centos246 log]$ cd
-[susmita@centos246 ~]$ cd repos
-[susmita@centos246 repos]$ ls
-[0m[01;34mcis246[0m  [01;34mcis246lab2[0m
-[susmita@centos246 repos]$ cd
+Script started on Thu 12 Nov 2020 08:59:36 PM EST
+[susmita@centos246 cis246lab2]$ m[Kcd
+[susmita@centos246 ~]$ mkdir archive backup
 [susmita@centos246 ~]$ ls
-[0m[01;34marchive[0m  myhosts  [01;34mrepos[0m
-[susmita@centos246 ~]$ mv [K[K[Kls
-[0m[01;34marchive[0m  myhosts  [01;34mrepos[0m
-[susmita@centos246 ~]$ cd repos
-[susmita@centos246 repos]$ ls
-[0m[01;34mcis246[0m  [01;34mcis246lab2[0m
-[susmita@centos246 repos]$ cd cislab2[K[K[K[K[Ks246lab2
-[susmita@centos246 cis246lab2]$ git status
-# On branch main
-# Untracked files:
-#   (use "git add <file>..." to include in what will be committed)
-#
-#	lab2.txt
-nothing added to commit but untracked files present (use "git add" to track)
-[susmita@centos246 cis246lab2]$ ls
-lab2.txt  README.md
-[susmita@centos246 cis246lab2]$ exit
-exit
+[0m[01;34marchive[0m  [01;34mbackup[0m  myhosts  [01;34mrepos[0m
+[susmita@centos246 ~]$ cccc[K[K[K[Kcd /var/log
+[susmita@centos246 log]$ cd /var/logls[Kmkdir archive backupcd[Kexitgit pushcommit -m "lab2.txt script file added"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kstatusless lab2.txt[2@script[C[C[C[C[C[C[C[C[C[3Pwhich scriptls[Kgit status[1Pcd cis246lab2ls[Kgit clone https://github.com/spoudel501/cis246lab2.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd reposls[Kcdpwd[1Pcdls -lacd Cis246lab2/[Kls[Kcd reposls[Kexit[2Plsgit statuscd cis246lab2ls[Kcd reposls[Kcdlscd repos[K /var/logmkdir archive[2Pcd /var/logmkdir archivecd[Kat >> summary.txt[K[4Plspwdls -lacd cis246ls[Kcd reposls[Kexit[2Plscp /etc/hosts myhostsls[Krm lpicfile.txtls[Ktouch lpicfile.txt[6Pls --all -rlw 40-I "T*"[3P-all -rl[K[K[K[K[K[K[K[K[K[K[K[Kl[Kcdd[K[K[Ktar -m[Kc -v[K[K[Kvff[K log.tar[K[K[K[K[K[K[K/var[K[K[Khome/*[Ksusmita/archive/log.tar *.log[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for susmita: 
+boot.log
+yum.log
+[susmita@centos246 log]$ tar -tf tar.log
+tar: tar.log: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+[susmita@centos246 log]$ l[Kcd [K
+[susmita@centos246 ~]$ archive[K[K[K[K[K[K[Kcd archive
+[susmita@centos246 archive]$ cd archive[Ktar -tf tar.log
+tar: tar.log: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+[susmita@centos246 archive]$ tar -tf tar.log[C[C[1Pg[1Pg[1Pg[1Pg[1Pg[1Pg[1Pg glgog[Cg.gtgagrg[C[K
+boot.log
+yum.log
+[susmita@centos246 archive]$ tar -xf log.tar -C home[K[K[K[K~/backup
+[susmita@centos246 archive]$ exit
 
-Script done on Thu 12 Nov 2020 07:17:56 PM EST
+Script done on Thu 12 Nov 2020 09:22:19 PM EST
